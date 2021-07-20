@@ -18,6 +18,7 @@ body{
 /* Header */
 
 nav{
+    background-color: var(--overlay);
     padding: 1.2em 4em 0em 4em;
     display: flex;
     justify-content: space-between;
