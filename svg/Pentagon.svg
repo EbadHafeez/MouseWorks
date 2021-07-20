@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 238 228" style="enable-background:new 0 0 238 228;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+	.st2{fill:url(#SVGID_3_);}
+	.st3{fill:url(#SVGID_4_);}
+	.st4{fill:url(#SVGID_5_);}
+	.st5{fill:url(#SVGID_6_);}
+	.st6{fill:url(#SVGID_7_);}
+</style>
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="148.7091" y1="96.9886" x2="208.3824" y2="96.9886">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon class="st0" points="208.38,134.85 164.9,136.55 148.71,59.13 192.2,57.43 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="114.4434" y1="162.7098" x2="208.3824" y2="162.7098">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon class="st1" points="157.93,188.87 114.44,190.57 164.9,136.55 208.38,134.85 	"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="82.07" y1="46.5788" x2="192.1957" y2="46.5788">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon class="st2" points="192.2,57.43 148.71,59.13 82.07,35.73 125.56,34.03 	"/>
+	<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="29.3468" y1="202.0715" x2="163.8481" y2="202.0715">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon class="st3" points="163.85,217.2 120.36,218.9 29.35,186.94 72.83,185.24 	"/>
+	<linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="7.2421" y1="43.4534" x2="119.6344" y2="43.4534">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon class="st4" points="50.73,79.49 7.24,81.19 76.15,7.42 119.63,5.71 	"/>
+	<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="7.2421" y1="133.2171" x2="72.8334" y2="133.2171">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<polygon class="st5" points="72.83,185.24 29.35,186.94 7.24,81.19 50.73,79.49 	"/>
+	<linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="50.7287" y1="111.4563" x2="232.7579" y2="111.4563">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.2511" style="stop-color:#B8B8B8"/>
+		<stop  offset="0.6204" style="stop-color:#565656"/>
+		<stop  offset="0.8782" style="stop-color:#181818"/>
+		<stop  offset="1" style="stop-color:#000000"/>
+	</linearGradient>
+	<path class="st6" d="M119.63,5.71l91.01,31.96l22.11,105.74l-68.91,73.79l-91.01-31.96L50.73,79.49L119.63,5.71z M157.93,188.87
+		l50.45-54.02L192.2,57.43l-66.64-23.4L75.1,88.05l16.19,77.42L157.93,188.87"/>
+</g>
+</svg>

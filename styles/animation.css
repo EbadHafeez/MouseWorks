@@ -1,0 +1,61 @@
+
+.barProg1Apply{
+    animation: barpro1 2.5s forwards cubic-bezier(0.25, 0.1, 0.31, 1.26);; 
+    animation-delay: .5s;
+}
+
+.barProg2Apply{
+    animation: barpro2 2s forwards cubic-bezier(0.25, 0.1, 0.31, 1.26);; 
+    animation-delay: .5s;
+}
+
+.barProg3Apply{
+    animation: barpro3 2s forwards cubic-bezier(0.25, 0.1, 0.31, 1.26);; 
+    animation-delay: .5s;
+}
+
+.barProg4Apply{
+    animation: barpro4 2s forwards cubic-bezier(0.25, 0.1, 0.31, 1.26);; 
+    animation-delay: .5s;
+}
+
+.barProg5Apply{
+    animation: barpro5 2s forwards cubic-bezier(0.25, 0.1, 0.31, 1.26);; 
+    animation-delay: .5s;
+}
+
+.barProg6Apply{
+    animation: barpro5 2s forwards cubic-bezier(0.25, 0.1, 0.31, 1.26);; 
+    animation-delay: .5s;
+}
+
+@keyframes barpro1{
+   from {width:0;}
+   to {width:90%;}
+}
+
+@keyframes barpro2{
+   from {width:0;}
+   to {width: 85%;}
+}
+
+@keyframes barpro3{
+   from {width:0;}
+   to {width:80%;}
+}
+
+@keyframes barpro4{
+   from {width:0;}
+   to {width: 80%;}
+}
+
+@keyframes barpro5{
+   from {width:0;}
+   to {width:70%;}
+}
+
+@keyframes barpro6{
+   from {width:0;}
+   to {width:70%;}
+}
+

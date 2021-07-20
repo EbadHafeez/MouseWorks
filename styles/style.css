@@ -1,0 +1,558 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    --overlay: rgba(255, 255, 255, 0.8);
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+    font-family: 'Raleway';
+}
+
+/* Header */
+
+nav{
+    padding: 1.2em 4em 0em 4em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+   height: 30px;
+}
+
+.cta{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0090ff;
+    border-radius: 50px;
+    height: 45px;
+    width: 120px;
+    transition: .2s;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #0090ff;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: #0090ff;
+}
+
+.cta:hover {
+    color: white;
+    background-color: #0090ff;
+}
+
+/* Hero Section */
+
+#section-1{
+    height: calc(100vh - 54px);
+}
+
+.section-1-container{
+    height: 100%;
+    background-color: var(--overlay);
+}
+
+.hero{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0em 2em 8em 2em;
+}
+
+
+.bg{ 
+    margin-bottom: 5.5%;
+}
+
+.bg #mouse{
+    width: 280px;
+}
+
+.heading{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.heading h1{
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 3.8rem;
+}
+
+.heading h3{
+    font-weight:300;
+    font-size: 2.4rem;
+}
+
+.heading span{
+    color: #0090ff;
+}
+
+#btn button{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: .5em .6em;
+    font-size: 1.3rem;
+    transition: .3s;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.418);
+}
+
+#btn i{
+    transition: .1s;
+    transform: translate(3px,2px);
+}
+
+#btn button:hover{
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.664);
+    font-size: 1.2rem;
+}
+
+#btn button:hover i{
+    color: #0090ff;
+   transform: rotateZ(90deg);
+}
+
+/* Skills Section */
+
+#section-2{
+    overflow: hidden;
+}
+
+.skill{
+    padding: 2em 1em;
+    background-color: rgba(255, 255, 255, 0.96);
+    height: 100%;
+}
+
+.heading-skill{
+    text-align: center;
+}
+.heading-skill h2{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 2.8rem;
+}
+
+.heading-skill p{
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+.heading-skill p span{
+    font-weight: 500;
+    color: #0090ff;
+}
+
+#showcase{
+    margin-top: 4.5em;
+    display: flex;
+}
+
+#pictures{
+    border-right: 1px solid rgba(0, 0, 0, 0.192);
+    width: 50%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 3em 1.5em;
+    grid-row-gap: 2.5em;
+    grid-column-gap: 2.5em;
+}
+
+#pic{
+    text-align: center;
+    width: 100%;
+}
+
+.txt{
+    color: black;
+    font-size: 1.05rem;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    max-width: 336px;
+}
+
+#pic img{
+    width: 130px;
+}
+
+#pic img{
+    margin-bottom: .5em;
+}
+
+
+.bars{
+    justify-content: c;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 1.5em;
+    width: 50%;
+}
+
+.bar{
+    background-color: rgb(238, 238, 238);
+    height: 28px;
+    width: 100%;
+}
+
+.show-bars{
+    margin: 1.4em 0;
+    padding: 0 1.5em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 130px;
+    height: 28px;
+    background-color: #0090ff;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    align-items: center;
+    text-align: right;
+    margin: 0;
+}
+
+
+.barProg{
+    background-color: #0076d1;
+    height: 100%;
+    width: 0;
+}
+
+.abs{
+    width: 115px;
+    position: fixed;
+    z-index: -1;
+}
+
+#abs1{
+    top: 60px;
+    left: 55px;
+}
+#abs2{
+    top: 67px;
+    right: 100px;
+}
+#abs3{
+    bottom: 67px;
+    left: 57px;
+}
+#abs4{
+    bottom: 67px;
+    right: 100px;
+}
+
+.animation-section{
+    height: calc(100vh - 57px);
+    width: 100%;
+    position: absolute;
+}
+
+#pictures,.bars{
+    max-width: 1800px;
+}
+
+
+
+
+/* Projects */
+
+#section-3{
+    overflow: hidden;
+}
+
+.section-3-container{
+    background-color: rgba(255, 255, 255, 0.96);
+    padding: 4em 1em 7em 1em;
+}
+
+.sec-3-heading{
+    text-align: center;
+}
+
+.sec-3-heading h2{
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.sec-3-heading p{
+    margin-top: .5em;
+    font-size: 1.3rem;
+}
+
+.projects{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin-top: 4em;
+}
+
+.project{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+
+.project:not(:last-child){
+    margin-bottom: 1em;
+}
+
+.project-show{
+    max-height: 206px;
+    width: 25%;
+}
+.project-show img{
+    width: 100%;
+    height: 100%;
+}
+
+.project-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2em;
+    background-color: white;
+    width: 55%;
+    cursor: pointer;
+}
+
+.project-heading h3{
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+}
+
+.project-heading p{
+    font-size: 1.1rem;
+    max-width: 550px;
+    margin-bottom: 1em;
+}
+
+.project-heading .fas{
+    transition: .25s;
+}
+
+.project-heading:hover .fas{
+    transform: translateX(8px);
+}
+
+
+#project-1 .project-heading{
+    color: #4E902E;
+    border: 1px solid #C3DF93;
+}
+
+#project-1 a{
+    color: #4E902E;
+}
+
+#project-2 .project-heading{
+    color: rgb(104, 104, 104);
+    border: 1px solid rgb(180, 180, 180);
+}
+#project-2 a{
+    color: rgb(104, 104, 104);
+}
+
+#project-3 .project-heading{
+    color: #0371c5;
+    border: 1px solid #75c3ff;
+}
+
+#project-3 a{
+    color: #0371c5;
+}
+
+#project-4 .project-heading{
+    color: #1e1e1e;
+    border: 1px solid #afafaf;
+}
+
+#project-4 a{
+    color: #1e1e1e;
+}
+
+
+/* Contact */
+
+#section-4{
+    overflow: hidden;
+}
+
+.section-4-container{
+    background-color: #1e1e1e;
+}
+
+.sec-4-heading{
+    padding-top: 5em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.sec-4-heading h2{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 2.9rem;
+}
+.sec-4-heading p{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 1em;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input{
+    padding-left: 1em;
+    outline: none;
+    font-size: 1.1rem;
+    background-color: #1e1e1e;
+    border: 0;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    border-radius: 3px ;
+    width: 100%;
+    height: 50px;
+}
+form input::placeholder{
+    color: white;
+}
+
+.form-input{
+    flex: 1;
+    padding: 0 1em;
+}
+
+.row-1{
+    display: flex;
+    margin-bottom: 2.5em;
+    width: 100%;
+}
+
+.row-2{
+    width: 100%;
+}
+.row-1 label{
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 1.1rem;
+    margin: 0 auto;
+    margin-bottom: 1.2em;
+    width: 100%;
+    display: block;
+}
+
+
+.row-2 textarea{
+    border: 1px solid rgba(255, 255, 255, 0.13);
+    background-color: #1e1e1e;
+    border-radius: 4px;
+    margin: 1.2em 1em;
+    width: 95%;
+    font-size: 1.1rem;
+    padding-top: 0.75em;
+    padding-left: 0.75em;
+    color: white;
+    resize: none;
+}
+
+.row-2 label{
+    padding-left: 1em;
+    color: rgba(255, 255, 255, 0.637);
+    font-size: 1.1rem;
+}
+
+.button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.637);
+    border-radius: 50px;
+    height: 50px;
+    width: 120px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.637);
+    letter-spacing: 1.5px;
+    transition: .2s;
+    background-color: transparent;
+}
+
+.button:hover{
+    border-color: #0090ff;
+    color: #0090ff;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 4em;
+    height: 80px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+}
+
+.email{
+    width: 100px;
+    border-right: 1px solid rgb(107, 107, 107);
+}
+
+
+.email i{
+    color: white;
+    margin: 0 .25em;
+    font-size: 1.5rem;
+    transition: .2s;
+}
+
+.email a:hover i{
+    color: rgba(255, 255, 255, 0.596);
+}
+
+
+.author{
+    margin-left: 20px;
+}
+
+.author span{
+    margin-right: .2em;
+    color: #0090ff;
+}
+
+
+
+
+
