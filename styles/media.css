@@ -139,7 +139,7 @@
 }
 
 @media (max-width:620px) {
-    .forms{
+    form{
         padding: 0 3em;
     }
     .form-input:not(:last-child){
@@ -190,7 +190,7 @@
     }
 
     .project-show{
-        width: 70%;
+        width: 80%;
     }
 
     #pictures{
@@ -221,7 +221,7 @@
         margin-bottom: .25em;
     }
 
-    .forms{
+    form{
         padding: 0 1em;
     }
 }
